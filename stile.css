@@ -1,0 +1,21 @@
+#esercizio1{
+    width: 200px;
+    height: 200px;
+    input{
+        border: 2px solid red;
+    }
+    background-color: #f0f0f4ff;
+}
+
+#esercizio2{
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+}
+#quadrato1, #quadrato2{
+        width: 50px;
+        height: 50px;
+        border:2px solid black;
+        margin: 10px;
+        display: inline-block;
+    }
