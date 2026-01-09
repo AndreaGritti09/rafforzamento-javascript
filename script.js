@@ -31,3 +31,25 @@ function confrontaNumeri() {
         document.getElementById("quadrato2").style.backgroundColor = "yellow";
     }
 }
+let contatore = 0;
+function incrementa(){
+    contatore++;
+    document.getElementById("numero").innerHTML = contatore;
+    if (contatore>=1){
+        document.getElementById("numero").style.color = "green";
+    }
+    else if (contatore==0){
+        document.getElementById("numero").style.color = "black";
+    }
+  
+}
+function decrementa(){
+    contatore--;
+    document.getElementById("numero").innerHTML = contatore;
+    if (contatore<=-1){
+        document.getElementById("numero").style.color = "red";
+    }
+    else if (contatore==0){
+        document.getElementById("numero").style.color = "black";
+    }
+}
