@@ -41,6 +41,9 @@ function incrementa(){
     else if (contatore==0){
         document.getElementById("numero").style.color = "black";
     }
+    if (contatore>10){
+        document.getElementById("numero").style.fontWeight = 'bold';
+    }
   
 }
 function decrementa(){
